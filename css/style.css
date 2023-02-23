@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --darkctblack: hsl(114, 8%, 24%);
+    --darkctdgreen: hsl(172, 23%, 33%);
+    --darkctgreen: hsl(147, 51%, 48%);
+    --darkctlgreen: hsl(113, 74%, 73%);
+    --darkcttext: hsl(0, 0%, 100%);
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    background: var(--darkctblack);
+}
+
+main{
+    padding: 4rem;
+    min-height: 100%;
+}
+
+main > div{
+    background: var(--darkctdgreen);
+    color: var(--darkcttext);
+    width: 10rem;
+    height: 10rem;
+}
+
+.gegevens{
+    
+}
+
+.tabel{
+
+}
+
+header, footer{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--darkctdgreen);
+    color: var(--darkcttext);
+}
